@@ -2,9 +2,9 @@ msg="hello world"
 print(msg)
 name= "lakshmi"
 age=28
-
+import keyword
 print(name)
-
+print(keyword.kwlist)
 # if 5 > 2:
 #   print("Five is greater than two!")
 

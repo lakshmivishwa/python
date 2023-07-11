@@ -17,10 +17,10 @@ while(True):
   printBoard(xState,zState)
   if (turn==1):
     print("X's Chance")
-    value=int(input("please enter value: "))
+    value=int(input(" x please enter value: "))
     zState[value]=1
   else:
     print("O's Chance")
-    value=int(input("please enter value: "))
+    value=int(input("o please enter value: "))
     xState[value]=1
   break

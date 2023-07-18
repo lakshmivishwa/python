@@ -29,12 +29,13 @@
 # l1.insert(10, 80)
 # print(l1)
 
-# List Comprehension
-l1=[a+1 for a in range(5)]
-print(l1)
+# # List Comprehension
+# l1=[a+1 for a in range(5)]
+# print(l1)
 
-l1=[a+4 for a in range(5)]
-print(l1)
+# l1=[a+4 for a in range(5)]
+# print(l1)
 
-l2=[a**2 for a in range(2,10,2)]
-print(l2)
+# l2=[a**2 for a in range(2,10,2)]
+# print(l2)
+

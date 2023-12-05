@@ -1,10 +1,10 @@
-# msg="hello world"
-# print(msg)
-# name= "lakshmi"
-# age=28
-
-# print(name)
-
+msg="hello world"
+print(msg)
+name= "lakshmi"
+age=28
+import keyword
+print(name)
+print(keyword.kwlist)
 # if 5 > 2:
 #   print("Five is greater than two!")
 
@@ -92,9 +92,20 @@
         
 # Return the count of a given substring from a string
 
-str_x = "Emma is good developer. Emma is a writer"
-subStr="Emma"
+# str = "Emma is good developer. Emma is a writer"
+# subStr="Emma"
+
+# def count(str, subStr):
+   
+#     count = 0
+#     for i in range(len(str) - 1):
+#         print(i)
+#         count += str[i: i + 4] == subStr
+#     return count
 
 
-def countStr(str, subStr):
-    
+# print(count("Emma is good developer. Emma is a writer","Emma"))
+
+
+
+
